@@ -7,7 +7,7 @@
     color: beige;
     display: flex;
     box-sizing: border-box;
-    margin: 5;
+    margin: 0.5%;
     padding: 2%;
     margin-bottom: 2%;
 }
@@ -23,11 +23,13 @@ ul{
 hr{
     height: 5px;
     background-color: #DEAA0E;
+    margin-left: 0.5%;
 }
 #mysite{
-    margin-left: 1%;
+    margin-left: 0.5%;
     color: beige;
     background-color: black;
+    
 }
 .sitetext{
     display: block;
@@ -36,4 +38,16 @@ hr{
     margin-right: 7%;
     font-size: larger;
     font-family: sans-serif;
+}
+#about{
+    color: beige;
+    background-image: url(../images/about1.jpg);
+    background-size: cover; height:500px; padding-top:80px;
+    padding: 20px; 
+    margin-left: 0.5%; 
+}
+.abouttext{
+    margin-left: 15%;
+    font-size: xx-large;
+   
 }
