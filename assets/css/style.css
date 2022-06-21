@@ -1,0 +1,26 @@
+*{
+    list-style-type: none;
+}
+#topnav{
+    background: fixed;
+    background-color: black;
+    color: beige;
+    display: flex;
+    box-sizing: border-box;
+    margin: 5;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.navtext{
+    margin: 12px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem 4rem;
+
+}
+hr{
+    height: 5px;
+    background-color: #DEAA0E;
+}
