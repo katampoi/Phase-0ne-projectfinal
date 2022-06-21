@@ -24,3 +24,16 @@ hr{
     height: 5px;
     background-color: #DEAA0E;
 }
+#mysite{
+    margin-left: 1%;
+    color: beige;
+    background-color: black;
+}
+.sitetext{
+    display: block;
+    float: right;
+    margin-top: 4%;
+    margin-right: 7%;
+    font-size: larger;
+    font-family: sans-serif;
+}
