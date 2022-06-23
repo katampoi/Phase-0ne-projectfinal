@@ -1,7 +1,8 @@
-*{
+* {
     list-style-type: none;
 }
-#topnav{
+
+#topnav {
     background: fixed;
     background-color: black;
     color: beige;
@@ -11,27 +12,32 @@
     padding: 2%;
     margin-bottom: 2%;
 }
-.navtext{
+
+.navtext {
     margin: 12px;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-between;
     margin: 0.3rem 4rem;
 
 }
-hr{
+
+hr {
     height: 5px;
     background-color: #DEAA0E;
     margin-left: 0.5%;
 }
-#mysite{
+
+#mysite {
     margin-left: 0.5%;
     color: beige;
     background-color: black;
-    
+
 }
-.sitetext{
+
+.sitetext {
     display: block;
     float: right;
     margin-top: 4%;
@@ -39,43 +45,54 @@ hr{
     font-size: larger;
     font-family: sans-serif;
 }
-#about{
+
+#about {
     color: beige;
     background-image: url(../images/about1.jpg);
-    background-size: cover; height:500px; padding-top:80px;
-    padding: 20px; 
-    margin-left: 0.5%; 
+    background-size: cover;
+    height: 500px;
+    padding-top: 80px;
+    padding: 20px;
+    margin-left: 0.5%;
 }
-.abouttext{
+
+.abouttext {
     margin-left: 15%;
     font-size: xx-large;
-   
+
 }
-#meal{
+
+#meal {
     margin-top: 2%;
 }
-.mealtext{
-    
+
+.mealtext {
+
     color: beige;
     background-color: black;
 }
-.form{
+
+.form {
     display: inline-block;
 }
-#contact{
+
+#contact {
     color: beige;
     background-color: black;
 }
-.contacthead{
+
+.contacthead {
     text-align: center;
     font-size: x-large;
 
 }
-.form{
+
+#form {
     margin-left: 5%;
     font-size: large;
 }
-#contacttext{
+
+#contacttext {
     display: flex;
     justify-content: space-around;
 }
