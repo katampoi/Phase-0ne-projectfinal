@@ -51,3 +51,27 @@ hr{
     font-size: xx-large;
    
 }
+#meal{
+    margin-top: 2%;
+}
+.mealtext{
+    
+    color: beige;
+    background-color: black;
+}
+.form{
+    display: inline-block;
+}
+#contact{
+    color: beige;
+    background-color: black;
+}
+.contacthead{
+    text-align: center;
+    font-size: x-large;
+
+}
+.form{
+    margin-left: 5%;
+    font-size: large;
+}
