@@ -20,10 +20,10 @@
             </div>
             <div id="bottomnav">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Our Food</li>
-                    <li>Contacts</li>  
+                    <li> Home</li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#meal">Our Food</a> </li>
+                    <li> <a href="#contact">Contacts</a> </li>  
                 </ul>
                 <hr>
             </div>
@@ -68,30 +68,35 @@
     <section>
         <div id="contact">
             <div class="contacthead"><p><h1>contact us</h1></p></div>
-            <div>
+            <div id="contacttext">
                 <div>
                     <form class="form" action="">
                         <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="first name" ><br><br>
+                        <input type="text" id="fname" name="fname" placeholder="first name" required><br><br>
                         <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname" placeholder="last name"><br><br>
+                        <input type="text" id="lname" name="lname" placeholder="last name" required><br><br>
                         <label for="lname">Last name:</label><br>
                         <input type="email" id="email" name="email" placeholder="enter Email" required><br><br>
                         <label for="message">Feedback</label><br>
-                        <textarea name="message" id="message" placeholder="enter message"></textarea><br><br>
+                        <textarea name="message" id="message" placeholder="enter message" required></textarea><br><br>
                         <input type="checkbox" id="checkbox">
                         <input type="submit" value="Submit">
         
                     </form>
                 </div>
-                <!-- <div>
-                    <img src="./assets/images/logo.jpg" alt="logo" height="100" width="100">
-                </div> -->
-            </div>
-            
+                <div>
+                    <p><img src="./assets/images/logo.jpg" alt="logo" style="width: 150; height: 150;" > </p>
+                    <p><h1>Katamba HOTEL</h1></p>
+                    <p><h4>Email:katamba@email.com</h4></p>
+                    <p><h4>instagram:katamba_Hotel</h4></p>
+                    <p><h4>Facebook:facebook</h4></p>
+                </div>
+            </div>  
         </div>
         <hr>
     </section>
+    <footer> <p><center> @KATAMA  <span style="color: red;" >&hearts; </span> we Value You © 2022 katamba_Hotel. All rights reserved. </center> </p></footer></footer>
+    <hr>
 
     <script src="./assets/js/index.js"></script>
 

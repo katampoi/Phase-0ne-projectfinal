@@ -75,3 +75,7 @@ hr{
     margin-left: 5%;
     font-size: large;
 }
+#contacttext{
+    display: flex;
+    justify-content: space-around;
+}
