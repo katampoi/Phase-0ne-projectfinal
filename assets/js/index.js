@@ -33,29 +33,29 @@ function myFunction(x) {
     x.style.background = "yellow";
 }
 
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': '021a3814f1mshc051263799b9e92p14093ejsn3339dc83df32',
-// 		'X-RapidAPI-Host': 'edamam-food-and-grocery-database.p.rapidapi.com'
-// 	}
-// };
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '021a3814f1mshc051263799b9e92p14093ejsn3339dc83df32',
+		'X-RapidAPI-Host': 'edamam-food-and-grocery-database.p.rapidapi.com'
+	}
+};
 
-// fetch('https://edamam-food-and-grocery-database.p.rapidapi.com/parser?ingr=apple', options)
-// 	.then(response => response.json())
-// 	.then(data => {
-//         let html= ""
-//         data.hints.map(meals => {
-//             console.log(meals)
-//             html+=` <div class="find">
-//             <img src=" ${meals.food.image}" alt="">
-//             <h4> ${meals.food.category}</h4>
-//             <h4> ${meals.food.label} </h4>
-//         </div> `
-//         } )
-//         document.getElementById("meal").innerHTML=html
-//     })
-// 	.catch(err => console.error(err));
+fetch('https://edamam-food-and-grocery-database.p.rapidapi.com/parser?ingr=apple', options)
+	.then(response => response.json())
+	.then(data => {
+        let html= ""
+        data.hints.map(meals => {
+            console.log(meals)
+            html+=` <div class="find">
+            <img src=" ${meals.food.image}" alt="">
+            <h4> ${meals.food.category}</h4>
+            <h4> ${meals.food.label} </h4>
+        </div> `
+        } )
+        document.getElementById("meal").innerHTML=html
+    })
+	.catch(err => console.error(err));
 
 
 // const options = {
