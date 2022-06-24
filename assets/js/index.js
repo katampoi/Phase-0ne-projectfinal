@@ -12,14 +12,27 @@ form.addEventListener("submit", function (event) {
     const message = event.target.message.value
 
 	// stop form submission
-	// event.preventDefault();
+	event.preventDefault();
 
 	// validate the form
 	let nameValid = hasValue(form.elements["name"], NAME_REQUIRED);
 	let emailValid = validateEmail(form.elements["email"], EMAIL_REQUIRED, EMAIL_INVALID);
 	// if valid, submit the form.
-    form.submit()
+    //form.submit()
+    const myFormData = new FormData(event.target);
+
+    const formDataObj = {};
+    myFormData.forEach((value, key) => (formDataObj[key] = value));
+    console.log(formDataObj);
 });
+const element = document.getElementById("home");
+element.addEventListener("click", function() {
+  document.getElementById("demo").innerHTML = "WELCOME Aboard!! ";
+});
+function myFunction(x) {
+    x.style.background = "yellow";
+}
+
 
 
 
