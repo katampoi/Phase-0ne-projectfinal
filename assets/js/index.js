@@ -11,8 +11,8 @@ form.addEventListener("submit", function (event) {
     const email = event.target.email.value
     const message = event.target.message.value
 
-	// stop form submission
-	event.preventDefault();
+	// // stop form submission
+	// event.preventDefault();
 
 	// validate the form
 	let nameValid = hasValue(form.elements["name"], NAME_REQUIRED);
@@ -56,19 +56,5 @@ fetch('https://edamam-food-and-grocery-database.p.rapidapi.com/parser?ingr=apple
         document.getElementById("meal").innerHTML=html
     })
 	.catch(err => console.error(err));
-
-
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': '021a3814f1mshc051263799b9e92p14093ejsn3339dc83df32',
-// 		'X-RapidAPI-Host': 'food71.p.rapidapi.com'
-// 	}
-// };
-
-// fetch('https://food71.p.rapidapi.com/', options)
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
 
 

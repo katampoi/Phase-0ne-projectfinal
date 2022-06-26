@@ -8,17 +8,27 @@
 - [Licence](#licence)
 - [Authors Info](#Authors-info)
 ## Description
-
+ <p>This project was all testing on the basic Javascript skills and it is all about a hotel website that displays any kind of foods available in the hotel . More updates to be implemented as more features are to incoporated</p>
 
 ## Features
-
+As a user of the application,you will be able to :
+1. See an interactive app that will be appealing
+2. To test your level of tech understanding
  ###  Requirements
-
+ * Access to  a computer or any other garget
+ * Access to internet
 ### Installation Process
+* Clone to the repo : git@github.com:katampoi/Phase-0ne-projectfinal.git
 
+###video link 
+
+###blog link
 
 ### Technology  Used
-
+* HTML - which was used to develope the structure off the pages.
+* CSS - which was used to style the User Interface.
+* JS - which was used to functionalize the web app
+* open API - which was used for backend 
 
 ### MIT License
 Copyright (c) [2022] [ simon katampoi ]
@@ -38,5 +48,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ## Authors Info
-Email:simon.katampoi@student.moringaschool.com.
-# 
+Email:simon.katampoi@student.moringaschool.com
+# I'M LOOKING FORWARD TO build an API that will fully bring the required intention of the website 
