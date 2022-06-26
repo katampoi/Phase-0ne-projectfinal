@@ -11,8 +11,8 @@ form.addEventListener("submit", function (event) {
     const email = event.target.email.value
     const message = event.target.message.value
 
-	// // stop form submission
-	// event.preventDefault();
+	// stop form submission
+	event.preventDefault();
 
 	// validate the form
 	let nameValid = hasValue(form.elements["name"], NAME_REQUIRED);

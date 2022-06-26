@@ -20,7 +20,8 @@ As a user of the application,you will be able to :
 ### Installation Process
 * Clone to the repo : git@github.com:katampoi/Phase-0ne-projectfinal.git
 
-###video link 
+### project video link  
+https://drive.google.com/file/d/143dBhVMS6xzCUMS6Rc0SF5rujKokrian/view
 
 ###blog link
 
